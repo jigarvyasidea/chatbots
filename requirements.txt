@@ -1,0 +1,21 @@
+"""
+Requirements file for ManekTech AI-powered Chatbot
+
+This file lists all the dependencies required to run the ManekTech AI-powered Chatbot.
+"""
+
+# Core dependencies
+streamlit==1.43.2
+langchain==0.3.21
+pyttsx3==2.90
+
+# Data processing
+sentence-transformers==3.4.1
+
+# Web scraping (optional, for updating company information)
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Audio processing
+soundfile==0.12.1
+sounddevice==0.4.6
